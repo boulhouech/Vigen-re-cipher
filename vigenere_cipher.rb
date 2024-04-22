@@ -3,8 +3,8 @@ def vigenere_cipher(plaintext, keyword)
   keyword_length = keyword.length
   encrypted_text = ""
 
-  plaintext.each_with_index do |char, index|
-    repeated_keyword =+ keyword[index % plaintext.lenth]
+  plaintext.chars.each_with_index do |char, index|
+    repeated_keyword += keyword[index % keyword_length]
   end
 
   shifts = repeated_keyword.upcase.chars.map do |char|
