@@ -16,4 +16,4 @@ Plaintext:   H   E   L   L   O
 Keyword:     K   E   Y   K   E
 Encrypted:   R   I   X   Q   W
 
-Decryption is performed in a similar manner, using the same keyword to reverse the process. Vigenère cipher was considered very secure for a long time because it was resistant to frequency analysis, the common attack against simple substitution ciphers, due to the varying shifts. However, with the advent of computers, it became vulnerable to more sophisticated cryptanalysis techniques.
+Decryption is performed in a similar manner, using the same keyword to reverse the process. Vigenère cipher was considered very secure for a long time because it was resistant to frequency analysis, the common attack against simple substitution ciphers, due to the varying shifts. However, with the advent of computers, it became vulnerable to more sophisticated cryptanalysis techniques. ()
